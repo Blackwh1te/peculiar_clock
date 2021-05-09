@@ -21,12 +21,6 @@ h1 {
    transform: translate(-50%, -50%);
    display: flex;
    align-items: center;
-   opacity: 1;
-   transition: all 0.3s ease;
-
-   &:not(.loaded) {
-      opacity: 0;
-   }
 
    // .clock__column
    &__column {
